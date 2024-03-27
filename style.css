@@ -41,7 +41,7 @@ p {
     width: 320px;
     
     flex-direction: column;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid var(--primaryBlack);
     border-radius: 10px;
     box-shadow: 4px 4px 3px 2px var(--primaryBlack);

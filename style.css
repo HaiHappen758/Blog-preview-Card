@@ -1,0 +1,84 @@
+:root {
+    --background: hsl(47, 88%, 63%);
+    --primaryText: hsl(0, 0%, 50%);
+    --primaryBlack: hsl(0, 0%, 7%);
+    --primaryWhite: hsl(0, 0%, 100%);
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    background-color: var(--background);
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: figtree, sans-serif;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+
+    font-weight: 800;
+    color: var(--primaryBlack);
+}
+
+p {
+    font-weight: 500;
+    color: var(--primaryText);
+}
+
+#date {
+    font-size: 0.8rem;
+    color: var(--primaryBlack);
+}
+.previewCard {
+    display: flex;
+    width: 320px;
+    
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid var(--primaryBlack);
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 2px var(--primaryBlack);
+
+    background-color: var(--primaryWhite);
+    justify-content: space-between;
+    
+}
+
+.previewImage img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#learning {
+    font-weight: 800;
+    background-color: var(--background);
+    padding: 0.5rem;
+    color: var(--primaryBlack);
+}
+
+
+
+.author {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 15px 0;
+
+}
+
+.author img {
+    height: 50px;
+    padding-right: 20px;
+}
+
+#author {
+    font-weight: 800;
+    font-size: 0.8rem;
+}
